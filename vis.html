@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V.K. Vishnu Yogesh - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #b6cef1;
+        }
+
+        .navbar {
+            background-color: #6cb3fa;
+        }
+
+        .jumbotron {
+            background-color: #fafbfa;
+            color: rgb(16, 13, 14);
+            padding: 80px 25px;
+            margin-bottom: 0;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .profile-img {
+            width:190px;
+            height: 170px;
+            border-radius: 50%;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            list-style-type:circle;
+            
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">V.K. Vishnu Yogesh - Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <div class="jumbotron text-center">
+        <img src="https://img.freepik.com/free-photo/man-with-brown-hair-white-shirt-is-looking-camera_1340-37513.jpg?t=st=1704430248~exp=1704433848~hmac=481d7372b6d5a5ce6e1174ae2143816f350e1469e497d4dc71327c1b984297cb&w=740" alt="Profile Photo" class="profile-img">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">Passionate about creating meaningful web experiences.</p>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="container mt-5">
+        <h2 id="about">About Me</h2>
+        <p>I am V.K. Vishnu Yogesh, a web developer with a strong foundation in front-end and back-end technologies. I enjoy turning ideas into reality through the power of code. My skills include HTML, CSS, JavaScript, and various web frameworks.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="container mt-5">
+        <h2 id="skills">Skills</h2>
+        <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Bootstrap</li>
+            <li>Git</li>
+        </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="container mt-5">
+        <h2 id="projects">My Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/view-3d-laptop-device-with-screen-keyboard_23-2150714005.jpg?t=st=1704391810~exp=1704395410~hmac=ea35132d1a97740304a14c3052b0002fb64a7b5bba8c4c2e52b42374307c4a4c&w=740" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">Designed and developed my personal portfolio website to showcase my skills and projects.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714203.jpg?t=st=1704430714~exp=1704434314~hmac=cbc9c2c38e1c2bad863f2d328b30008ee2cc1fc8bdefc1cb5b87ad3e0b4353f3&w=740" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">E-commerce Website</h5>
+                        <p class="card-text">Built a fully functional e-commerce website with features such as product listings, shopping cart, and secure checkout.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/modern-monitor-elegant-table_23-2150706423.jpg?t=st=1704430884~exp=1704434484~hmac=1ff2770e7ac93d3698e086302dea21b45e81e0e75c09447b321c50111fc7fa42&w=1060" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Platform</h5>
+                        <p class="card-text">Developed a blog platform with user authentication, post creation, and commenting functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="jumbotron text-center" id="contact">
+        <h2 class="display-4">Contact Me</h2>
+        <p class="lead">Let's connect and build something amazing together!</p>
+        <p>Email: vishnu12345@example.com</p>
+        <p>Phone:7339610830</p>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
